@@ -5,6 +5,9 @@ public class Client {
 
         System.out.println("Famille 2 :");
         utiliserFactory(new Factory2());
+
+        System.out.println("Famille 3 :");
+        utiliserFactory(new Factory3());
     }
 
     private static void utiliserFactory(AbstractFactory factory) {
