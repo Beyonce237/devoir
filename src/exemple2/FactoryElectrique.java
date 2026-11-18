@@ -10,4 +10,9 @@ public class FactoryElectrique extends AbstractFactory {
     public Scooter ConstruireScooter() {
         return new ScooterElectrique();
     }
+
+    @Override
+    public Locomotive ConstruireLocomotive() {
+        return new LocomotiveElectrique();
+    }
 }

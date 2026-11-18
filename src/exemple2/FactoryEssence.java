@@ -10,4 +10,9 @@ public class FactoryEssence extends AbstractFactory {
     public Scooter ConstruireScooter() {
         return new ScooterEssence();
     }
+
+    @Override
+    public Locomotive ConstruireLocomotive() {
+        return new LocomotiveEssence();
+    }
 }

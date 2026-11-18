@@ -12,7 +12,9 @@ public class Client {
     private static void utiliserFactory(AbstractFactory factory) {
         Automobile automobile = factory.ConstruireAutomobile();
         Scooter scooter = factory.ConstruireScooter();
+        Locomotive locomotive = factory.ConstruireLocomotive();
         automobile.methodeAutomobile();
         scooter.methodeScooter();
+        locomotive.methodeLocomotive();
     }
 }
